@@ -1,0 +1,123 @@
+cfg,shift,func,vs,n,p_value,note
+D100_N1024_T200,0,Ackley,omp,20,,identical (all differences zero)
+D100_N1024_T200,0,Ackley,cuda,20,0.16551785869747015,
+D100_N1024_T200,0,F16_StepSphere,omp,20,,identical (all differences zero)
+D100_N1024_T200,0,F16_StepSphere,cuda,20,,identical (all differences zero)
+D100_N1024_T200,0,F17_Quartic,omp,20,,identical (all differences zero)
+D100_N1024_T200,0,F17_Quartic,cuda,20,0.6686323185571559,
+D100_N1024_T200,0,F18_Schwefel,omp,20,,identical (all differences zero)
+D100_N1024_T200,0,F18_Schwefel,cuda,20,0.07435290536856357,
+D100_N1024_T200,0,F19_Rastrigin,omp,20,,identical (all differences zero)
+D100_N1024_T200,0,F19_Rastrigin,cuda,20,0.058215937733967,
+D100_N1024_T200,0,F24_Bohachevsky,omp,20,,identical (all differences zero)
+D100_N1024_T200,0,F24_Bohachevsky,cuda,20,,identical (all differences zero)
+D100_N1024_T200,0,F25_Booth,omp,20,,identical (all differences zero)
+D100_N1024_T200,0,F25_Booth,cuda,20,0.20262160771231197,
+D100_N1024_T200,0,F26_Matyas,omp,20,,identical (all differences zero)
+D100_N1024_T200,0,F26_Matyas,cuda,20,0.7172177958043885,
+D100_N1024_T200,0,F27_Easom,omp,20,,identical (all differences zero)
+D100_N1024_T200,0,F27_Easom,cuda,20,1.0,
+D100_N1024_T200,0,F28_Beale,omp,20,,identical (all differences zero)
+D100_N1024_T200,0,F28_Beale,cuda,20,0.2860033840207056,
+D100_N1024_T200,0,F29_SchafferN2,omp,20,,identical (all differences zero)
+D100_N1024_T200,0,F29_SchafferN2,cuda,20,0.16700719585656576,
+D100_N1024_T200,0,F30_SixHumpCamel,omp,20,,identical (all differences zero)
+D100_N1024_T200,0,F30_SixHumpCamel,cuda,20,0.31731050786291415,
+D100_N1024_T200,0,Griewank,omp,20,,identical (all differences zero)
+D100_N1024_T200,0,Griewank,cuda,20,0.9476976743980118,
+D100_N1024_T200,0,Rosenbrock,omp,20,,identical (all differences zero)
+D100_N1024_T200,0,Rosenbrock,cuda,20,0.341996070672722,
+D100_N256_T500,0,Ackley,omp,20,,identical (all differences zero)
+D100_N256_T500,0,Ackley,cuda,20,0.763024600552995,
+D100_N256_T500,0,F16_StepSphere,omp,20,,identical (all differences zero)
+D100_N256_T500,0,F16_StepSphere,cuda,20,,identical (all differences zero)
+D100_N256_T500,0,F17_Quartic,omp,20,,identical (all differences zero)
+D100_N256_T500,0,F17_Quartic,cuda,20,0.7780677781769216,
+D100_N256_T500,0,F18_Schwefel,omp,20,,identical (all differences zero)
+D100_N256_T500,0,F18_Schwefel,cuda,20,0.32274805351112157,
+D100_N256_T500,0,F19_Rastrigin,omp,20,,identical (all differences zero)
+D100_N256_T500,0,F19_Rastrigin,cuda,20,0.6628216963110628,
+D100_N256_T500,0,F24_Bohachevsky,omp,20,,identical (all differences zero)
+D100_N256_T500,0,F24_Bohachevsky,cuda,20,0.17971249487899976,
+D100_N256_T500,0,F25_Booth,omp,20,,identical (all differences zero)
+D100_N256_T500,0,F25_Booth,cuda,20,0.6784023758521882,
+D100_N256_T500,0,F26_Matyas,omp,20,,identical (all differences zero)
+D100_N256_T500,0,F26_Matyas,cuda,20,0.5694942779917188,
+D100_N256_T500,0,F27_Easom,omp,20,,identical (all differences zero)
+D100_N256_T500,0,F27_Easom,cuda,20,0.7791707483631414,
+D100_N256_T500,0,F28_Beale,omp,20,,identical (all differences zero)
+D100_N256_T500,0,F28_Beale,cuda,20,0.9679000486136345,
+D100_N256_T500,0,F29_SchafferN2,omp,20,,identical (all differences zero)
+D100_N256_T500,0,F29_SchafferN2,cuda,20,0.33628879040286896,
+D100_N256_T500,0,F30_SixHumpCamel,omp,20,,identical (all differences zero)
+D100_N256_T500,0,F30_SixHumpCamel,cuda,20,0.03389485352468927,
+D100_N256_T500,0,Griewank,omp,20,,identical (all differences zero)
+D100_N256_T500,0,Griewank,cuda,20,0.03170374897815613,
+D100_N256_T500,0,Rosenbrock,omp,20,,identical (all differences zero)
+D100_N256_T500,0,Rosenbrock,cuda,20,0.506606820695747,
+D30_N1024_T500,0,Ackley,omp,20,,identical (all differences zero)
+D30_N1024_T500,0,Ackley,cuda,20,0.7388826803635273,
+D30_N1024_T500,0,F16_StepSphere,omp,20,,identical (all differences zero)
+D30_N1024_T500,0,F16_StepSphere,cuda,20,,identical (all differences zero)
+D30_N1024_T500,0,F17_Quartic,omp,20,,identical (all differences zero)
+D30_N1024_T500,0,F17_Quartic,cuda,20,0.9839370189401181,
+D30_N1024_T500,0,F18_Schwefel,omp,20,,identical (all differences zero)
+D30_N1024_T500,0,F18_Schwefel,cuda,20,0.569552197015796,
+D30_N1024_T500,0,F19_Rastrigin,omp,20,,identical (all differences zero)
+D30_N1024_T500,0,F19_Rastrigin,cuda,20,0.17971249487899976,
+D30_N1024_T500,0,F24_Bohachevsky,omp,20,,identical (all differences zero)
+D30_N1024_T500,0,F24_Bohachevsky,cuda,20,,identical (all differences zero)
+D30_N1024_T500,0,F25_Booth,omp,20,,identical (all differences zero)
+D30_N1024_T500,0,F25_Booth,cuda,20,0.09948088075636449,
+D30_N1024_T500,0,F26_Matyas,omp,20,,identical (all differences zero)
+D30_N1024_T500,0,F26_Matyas,cuda,20,0.24613691576742636,
+D30_N1024_T500,0,F27_Easom,omp,20,,identical (all differences zero)
+D30_N1024_T500,0,F27_Easom,cuda,20,0.08446903225325182,
+D30_N1024_T500,0,F28_Beale,omp,20,,identical (all differences zero)
+D30_N1024_T500,0,F28_Beale,cuda,20,0.7212766990291557,
+D30_N1024_T500,0,F29_SchafferN2,omp,20,,identical (all differences zero)
+D30_N1024_T500,0,F29_SchafferN2,cuda,20,0.31731050786291415,
+D30_N1024_T500,0,F30_SixHumpCamel,omp,20,,identical (all differences zero)
+D30_N1024_T500,0,F30_SixHumpCamel,cuda,20,1.0,
+D30_N1024_T500,0,Griewank,omp,20,,identical (all differences zero)
+D30_N1024_T500,0,Griewank,cuda,20,0.8515548977976366,
+D30_N1024_T500,0,Rosenbrock,omp,20,,identical (all differences zero)
+D30_N1024_T500,0,Rosenbrock,cuda,20,0.4319446671778434,
+D30_N1024_T500,1,Ackley,omp,20,,identical (all differences zero)
+D30_N1024_T500,1,Ackley,cuda,20,0.08498142170784352,
+D30_N1024_T500,1,F16_StepSphere,omp,20,,identical (all differences zero)
+D30_N1024_T500,1,F16_StepSphere,cuda,20,,identical (all differences zero)
+D30_N1024_T500,1,F17_Quartic,omp,20,,identical (all differences zero)
+D30_N1024_T500,1,F17_Quartic,cuda,20,0.057690314603531676,
+D30_N1024_T500,1,F19_Rastrigin,omp,20,,identical (all differences zero)
+D30_N1024_T500,1,F19_Rastrigin,cuda,20,0.585913748781291,
+D30_N1024_T500,1,Griewank,omp,20,,identical (all differences zero)
+D30_N1024_T500,1,Griewank,cuda,20,0.1677747463277678,
+D30_N256_T200,0,Ackley,omp,20,,identical (all differences zero)
+D30_N256_T200,0,Ackley,cuda,20,0.7736881134819296,
+D30_N256_T200,0,F16_StepSphere,omp,20,,identical (all differences zero)
+D30_N256_T200,0,F16_StepSphere,cuda,20,,identical (all differences zero)
+D30_N256_T200,0,F17_Quartic,omp,20,,identical (all differences zero)
+D30_N256_T200,0,F17_Quartic,cuda,20,0.2007619365336325,
+D30_N256_T200,0,F18_Schwefel,omp,20,,identical (all differences zero)
+D30_N256_T200,0,F18_Schwefel,cuda,20,0.2318643069414693,
+D30_N256_T200,0,F19_Rastrigin,omp,20,,identical (all differences zero)
+D30_N256_T200,0,F19_Rastrigin,cuda,20,0.5410001584306676,
+D30_N256_T200,0,F24_Bohachevsky,omp,20,,identical (all differences zero)
+D30_N256_T200,0,F24_Bohachevsky,cuda,20,0.7477301646241347,
+D30_N256_T200,0,F25_Booth,omp,20,,identical (all differences zero)
+D30_N256_T200,0,F25_Booth,cuda,20,0.40081416938293446,
+D30_N256_T200,0,F26_Matyas,omp,20,,identical (all differences zero)
+D30_N256_T200,0,F26_Matyas,cuda,20,0.3957522466577532,
+D30_N256_T200,0,F27_Easom,omp,20,,identical (all differences zero)
+D30_N256_T200,0,F27_Easom,cuda,20,0.26144605232963014,
+D30_N256_T200,0,F28_Beale,omp,20,,identical (all differences zero)
+D30_N256_T200,0,F28_Beale,cuda,20,0.9249783071207602,
+D30_N256_T200,0,F29_SchafferN2,omp,20,,identical (all differences zero)
+D30_N256_T200,0,F29_SchafferN2,cuda,20,0.30464192203660967,
+D30_N256_T200,0,F30_SixHumpCamel,omp,20,,identical (all differences zero)
+D30_N256_T200,0,F30_SixHumpCamel,cuda,20,0.31731050786291415,
+D30_N256_T200,0,Griewank,omp,20,,identical (all differences zero)
+D30_N256_T200,0,Griewank,cuda,20,0.6355149553831254,
+D30_N256_T200,0,Rosenbrock,omp,20,,identical (all differences zero)
+D30_N256_T200,0,Rosenbrock,cuda,20,0.8959408988988655,
