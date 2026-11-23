@@ -1,5 +1,18 @@
 # Hare Escape Optimization (HEO): Sequential, OpenMP and CUDA
 
+<p align="center">
+  <img src="https://img.shields.io/badge/C%2B%2B-17-00599C?logo=c%2B%2B&logoColor=white" alt="C++17"/>
+  <img src="https://img.shields.io/badge/OpenMP-Parallel%20CPU-6B8E23" alt="OpenMP"/>
+  <img src="https://img.shields.io/badge/NVIDIA-CUDA-76B900?logo=nvidia&logoColor=white" alt="CUDA"/>
+  <img src="https://img.shields.io/badge/GPU-Tesla%20T4-76B900?logo=nvidia&logoColor=white" alt="Tesla T4"/>
+  <img src="https://img.shields.io/badge/Python-Benchmark%20Notebook-3776AB?logo=python&logoColor=white" alt="Python"/>
+</p>
+
+<p align="center">
+  <b>One optimization algorithm. Three execution back-ends.</b><br/>
+  Sequential CPU · Shared-memory OpenMP · CUDA GPU
+</p>
+
 A reproducible C++17 implementation and performance study of the **Hare Escape Optimization (HEO)** metaheuristic. The final implementation, benchmark notebook, CSV data and experimental report are maintained in **[`heoimprved/`](./heoimprved/)**.
 
 This README documents that final implementation only. The older root-level implementation and its scripts are not part of the documented workflow.
