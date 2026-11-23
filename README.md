@@ -43,6 +43,26 @@ Hare-escape-optimization-algorithm-parallel-version/
 
 The notebook also generates comparison and scaling figures when its analysis cells are run. The CSV directory contains recorded benchmark and analysis outputs; rerunning the notebook can regenerate the experiment outputs.
 
+## Architecture and implementation flowcharts
+
+The diagrams below give a visual overview of how the two parallel back-ends execute HEO. They are stored as scalable SVG graphics in `docs/images/`, so they remain sharp when viewed on GitHub or in a browser.
+
+### CUDA GPU implementation
+
+![HEO CUDA implementation flowchart](./docs/images/heo-cuda-flowchart.svg)
+
+The CUDA workflow keeps the population and intermediate arrays on the GPU across iterations. Each iteration updates candidates, evaluates fitness, orders the combined population using CUB radix sort, and gathers the best (N) survivors. Only the final result is copied back to the host.
+
+### OpenMP CPU implementation
+
+![HEO OpenMP implementation flowchart](./docs/images/heo-openmp-flowchart.svg)
+
+The OpenMP workflow parallelizes independent hare initialization, candidate updates and fitness evaluation across CPU threads. Selection then retains the best (N) individuals from the parent and candidate populations.
+
+> **Implementation note:** These are documentation diagrams illustrating the project’s high-level execution model. For exact kernel names, data structures, sorting details, RNG behaviour and selection semantics, refer to the source files in `heoimprved/`.
+
+---
+
 ## Algorithm details
 
 For each hare and each dimension, the candidate position follows the update structure:
